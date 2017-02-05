@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/huawei/can/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/huawei/can/proprietary/bin/energy-awareness:system/bin/energy-awareness \
+    vendor/huawei/can/proprietary/bin/fstman:system/bin/fstman \
     vendor/huawei/can/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/can/proprietary/bin/iop:system/bin/iop \
     vendor/huawei/can/proprietary/bin/irsc_util:system/bin/irsc_util \
@@ -43,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
     vendor/huawei/can/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/huawei/can/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
+    vendor/huawei/can/proprietary/etc/wifi/fstman.ini:system/etc/wifi/fstman.ini \
     vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv.bin:system/etc/wifi/WCNSS_hw_wlan_nv.bin \
     vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_al00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_al00.bin \
     vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_al00_no_fem.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_al00_no_fem.bin \
