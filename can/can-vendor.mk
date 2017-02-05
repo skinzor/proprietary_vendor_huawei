@@ -33,8 +33,30 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/firmware/a506_zap.b02:system/etc/firmware/a506_zap.b02 \
     vendor/huawei/can/proprietary/etc/firmware/a506_zap.elf:system/etc/firmware/a506_zap.elf \
     vendor/huawei/can/proprietary/etc/firmware/a506_zap.mdt:system/etc/firmware/a506_zap.mdt \
+    vendor/huawei/can/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
+    vendor/huawei/can/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
+    vendor/huawei/can/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
+    vendor/huawei/can/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
+    vendor/huawei/can/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
+    vendor/huawei/can/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
+    vendor/huawei/can/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
+    vendor/huawei/can/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
     vendor/huawei/can/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/huawei/can/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
+    vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv.bin:system/etc/wifi/WCNSS_hw_wlan_nv.bin \
+    vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_al00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_al00.bin \
+    vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_al00_no_fem.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_al00_no_fem.bin \
+    vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_cl00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_cl00.bin \
+    vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_l01.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_l01.bin \
+    vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_l02.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_l02.bin \
+    vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_l03.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_l03.bin \
+    vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_tl00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_tl00.bin \
+    vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_al00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_al00.bin \
+    vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_cl00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_cl00.bin \
+    vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_l01.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_l01.bin \
+    vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_l02.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_l02.bin \
+    vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_l03.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_l03.bin \
+    vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin \
     vendor/huawei/can/proprietary/lib64/libqmi_nv_api.so:system/lib64/libqmi_nv_api.so \
     vendor/huawei/can/proprietary/lib64/libqmi_oem_api.so:system/lib64/libqmi_oem_api.so \
     vendor/huawei/can/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
@@ -42,6 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
     vendor/huawei/can/proprietary/lib/libqmi_oem_api.so:system/lib/libqmi_oem_api.so \
     vendor/huawei/can/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/huawei/can/proprietary/lib/soundfx/libeagle.so:system/lib/soundfx/libeagle.so \
     vendor/huawei/can/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/huawei/can/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/huawei/can/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
@@ -223,5 +246,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
-    TimeService \
-    QtiTetherService
+    TimeService
