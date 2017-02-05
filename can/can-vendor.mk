@@ -35,9 +35,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/firmware/a506_zap.mdt:system/etc/firmware/a506_zap.mdt \
     vendor/huawei/can/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/huawei/can/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
+    vendor/huawei/can/proprietary/lib64/libqmi_nv_api.so:system/lib64/libqmi_nv_api.so \
+    vendor/huawei/can/proprietary/lib64/libqmi_oem_api.so:system/lib64/libqmi_oem_api.so \
     vendor/huawei/can/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/huawei/can/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/huawei/can/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
+    vendor/huawei/can/proprietary/lib/libqmi_oem_api.so:system/lib/libqmi_oem_api.so \
     vendor/huawei/can/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/huawei/can/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/huawei/can/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/huawei/can/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/huawei/can/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -67,6 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/huawei/can/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
     vendor/huawei/can/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
+    vendor/huawei/can/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/huawei/can/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/huawei/can/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/huawei/can/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
@@ -116,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/huawei/can/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/huawei/can/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/huawei/can/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/huawei/can/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/huawei/can/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/huawei/can/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
@@ -148,6 +155,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/huawei/can/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/huawei/can/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/huawei/can/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/huawei/can/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/huawei/can/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/huawei/can/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
@@ -158,7 +166,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/huawei/can/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/huawei/can/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/huawei/can/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/huawei/can/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
+    vendor/huawei/can/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/huawei/can/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/huawei/can/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/huawei/can/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -186,8 +196,13 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/huawei/can/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/huawei/can/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/huawei/can/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
+    vendor/huawei/can/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
+    vendor/huawei/can/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
     vendor/huawei/can/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
+    vendor/huawei/can/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/huawei/can/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
+    vendor/huawei/can/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/huawei/can/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/huawei/can/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/huawei/can/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
