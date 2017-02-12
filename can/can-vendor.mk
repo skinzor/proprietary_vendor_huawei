@@ -33,6 +33,34 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/bin/radish:system/bin/radish \
     vendor/huawei/can/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/can/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/huawei/can/proprietary/etc/acdbdata/can/Bluetooth_cal.acdb:system/etc/acdbdata/can/Bluetooth_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/can/General_cal.acdb:system/etc/acdbdata/can/General_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/can/Global_cal.acdb:system/etc/acdbdata/can/Global_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/can/Handset_cal.acdb:system/etc/acdbdata/can/Handset_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/can/Hdmi_cal.acdb:system/etc/acdbdata/can/Hdmi_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/can/Headset_cal.acdb:system/etc/acdbdata/can/Headset_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/can/Speaker_cal.acdb:system/etc/acdbdata/can/Speaker_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/canl010203/Bluetooth_cal.acdb:system/etc/acdbdata/canl010203/Bluetooth_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/canl010203/General_cal.acdb:system/etc/acdbdata/canl010203/General_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/canl010203/Global_cal.acdb:system/etc/acdbdata/canl010203/Global_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/canl010203/Handset_cal.acdb:system/etc/acdbdata/canl010203/Handset_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/canl010203/Hdmi_cal.acdb:system/etc/acdbdata/canl010203/Hdmi_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/canl010203/Headset_cal.acdb:system/etc/acdbdata/canl010203/Headset_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/canl010203/Speaker_cal.acdb:system/etc/acdbdata/canl010203/Speaker_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/milan/Bluetooth_cal.acdb:system/etc/acdbdata/milan/Bluetooth_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/milan/General_cal.acdb:system/etc/acdbdata/milan/General_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/milan/Global_cal.acdb:system/etc/acdbdata/milan/Global_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/milan/Handset_cal.acdb:system/etc/acdbdata/milan/Handset_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/milan/Hdmi_cal.acdb:system/etc/acdbdata/milan/Hdmi_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/milan/Headset_cal.acdb:system/etc/acdbdata/milan/Headset_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/milan/Speaker_cal.acdb:system/etc/acdbdata/milan/Speaker_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/mlal010203/Bluetooth_cal.acdb:system/etc/acdbdata/mlal010203/Bluetooth_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/mlal010203/General_cal.acdb:system/etc/acdbdata/mlal010203/General_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/mlal010203/Global_cal.acdb:system/etc/acdbdata/mlal010203/Global_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/mlal010203/Handset_cal.acdb:system/etc/acdbdata/mlal010203/Handset_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/mlal010203/Hdmi_cal.acdb:system/etc/acdbdata/mlal010203/Hdmi_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/mlal010203/Headset_cal.acdb:system/etc/acdbdata/mlal010203/Headset_cal.acdb \
+    vendor/huawei/can/proprietary/etc/acdbdata/mlal010203/Speaker_cal.acdb:system/etc/acdbdata/mlal010203/Speaker_cal.acdb \
     vendor/huawei/can/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/huawei/can/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/huawei/can/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
