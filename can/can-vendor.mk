@@ -20,10 +20,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/huawei/can/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/huawei/can/proprietary/bin/energy-awareness:system/bin/energy-awareness \
-    vendor/huawei/can/proprietary/bin/fstman:system/bin/fstman \
     vendor/huawei/can/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/can/proprietary/bin/iop:system/bin/iop \
     vendor/huawei/can/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/huawei/can/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
     vendor/huawei/can/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/huawei/can/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/huawei/can/proprietary/bin/pm-proxy:system/bin/pm-proxy \
@@ -66,20 +66,17 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_l02.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_l02.bin \
     vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_l03.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_l03.bin \
     vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin \
-    vendor/huawei/can/proprietary/etc/wifi/fstman.ini:system/etc/wifi/fstman.ini \
     vendor/huawei/can/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/huawei/can/proprietary/lib/libhuaweicust.so:system/lib/libhuaweicust.so \
     vendor/huawei/can/proprietary/lib/libhw_hal.so:system/lib/libhw_hal.so \
     vendor/huawei/can/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
     vendor/huawei/can/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
-    vendor/huawei/can/proprietary/lib/libqmi_oem_api.so:system/lib/libqmi_oem_api.so \
     vendor/huawei/can/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/huawei/can/proprietary/lib/soundfx/libeagle.so:system/lib/soundfx/libeagle.so \
     vendor/huawei/can/proprietary/lib64/libhuaweicust.so:system/lib64/libhuaweicust.so \
     vendor/huawei/can/proprietary/lib64/libhw_hal.so:system/lib64/libhw_hal.so \
     vendor/huawei/can/proprietary/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
     vendor/huawei/can/proprietary/lib64/libqmi_nv_api.so:system/lib64/libqmi_nv_api.so \
-    vendor/huawei/can/proprietary/lib64/libqmi_oem_api.so:system/lib64/libqmi_oem_api.so \
     vendor/huawei/can/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/huawei/can/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/huawei/can/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -273,6 +270,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so
 
 PRODUCT_PACKAGES += \
+    libqmi_oem_api \
     libmdmdetect \
     libthermalclient \
     libtime_genoff \
