@@ -121,7 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
     vendor/huawei/can/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
     vendor/huawei/can/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/huawei/can/proprietary/lib/soundfx/libeagle.so:system/lib/soundfx/libeagle.so \
     vendor/huawei/can/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/huawei/can/proprietary/lib64/libbtaddr.so:system/lib64/libbtaddr.so \
     vendor/huawei/can/proprietary/lib64/libbtpower.so:system/lib64/libbtpower.so \
