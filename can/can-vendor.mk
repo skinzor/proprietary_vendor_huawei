@@ -90,7 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/can/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/huawei/can/proprietary/etc/sap.conf:system/etc/sap.conf \
-    vendor/huawei/can/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/huawei/can/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/huawei/can/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv.bin:system/etc/wifi/WCNSS_hw_wlan_nv.bin \
