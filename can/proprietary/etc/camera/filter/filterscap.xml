@@ -1,0 +1,137 @@
+<filters>
+    <filter name="zy">
+        <effect name="zy-moran">
+            <!--supported_camID>0</supported_camID-->
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="zy-rixi">
+            <!--supported_camID>0</supported_camID-->
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="zy-fugu">
+            <supported_camID>0</supported_camID>
+            <supported_camID>1</supported_camID>
+        </effect>
+        <effect name="zy-valencia">
+            <supported_camID>0</supported_camID>
+            <supported_camID>1</supported_camID>
+        </effect>
+        <effect name="zy-laodianying">
+            <!--supported_camID>0</supported_camID-->
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="zy-lianghong">
+            <supported_camID>0</supported_camID>
+            <supported_camID>1</supported_camID>
+        </effect>
+        <effect name="zy-yunduan">
+            <!--supported_camID>0</supported_camID-->
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="zy-earlybird">
+            <supported_camID>0</supported_camID>
+            <supported_camID>1</supported_camID>
+        </effect>
+        <effect name="zy-nuanyangyang">
+            <!--supported_camID>0</supported_camID-->
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="zy-tianmeikeren">
+            <!--supported_camID>0</supported_camID-->
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="zy-meishimenghuan">
+            <!--supported_camID>0</supported_camID-->
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="zy-heibai">
+            <!--supported_camID>0</supported_camID-->
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="zy-xpro2">
+            <supported_camID>0</supported_camID>
+            <supported_camID>1</supported_camID>
+        </effect>
+        <effect name="zy-hudson">
+            <!--supported_camID>0</supported_camID-->
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="zy-myfair">
+            <!--supported_camID>0</supported_camID-->
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="zy-lofi">
+            <!--supported_camID>0</supported_camID-->
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="zy-mosaic">
+            <!--supported_camID>0</supported_camID-->
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="zy-fixcolor">
+            <!--supported_camID>0</supported_camID-->
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="zy-blur">
+            <!--supported_camID>0</supported_camID-->
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="zy-tiltshift">
+            <!--supported_camID>0</supported_camID-->
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+    </filter>
+    <filter name="morpho">
+        <effect name="mph-huawei_monochrome">
+            <supported_camID>0</supported_camID>
+            <supported_camID>1</supported_camID>
+        </effect>
+        <effect name="mph-huawei_moriyama">
+            <supported_camID>0</supported_camID>
+            <supported_camID>1</supported_camID>
+        </effect>
+        <effect name="mph-huawei_graylevels">
+            <supported_camID>0</supported_camID>
+            <supported_camID>1</supported_camID>
+        </effect>
+        <effect name="mph-huawei1">
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="mph-huawei2">
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="mph-huawei3">
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="mph-huawei4">
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="mph-huawei5">
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="mph-huawei6">
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="mph-snow">
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="mph-waterbubble">
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="mph-firefly">
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="mph-petal">
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+        <effect name="mph-country">
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+    </filter>
+    <filter name="indi">
+        <effect name="individuation">
+            <!--supported_camID>1</supported_camID-->
+        </effect>
+    </filter>
+</filters>
+<!--注：凡是不在这里配置的都用代码中默认的配置-->

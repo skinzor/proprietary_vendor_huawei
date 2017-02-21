@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="gb2312"?>
+<SdConfig>
+  <!-- 点光源场景检测门限值 -->
+  <SpotLightThresholds>
+    <LightSourceY>235</LightSourceY>
+    <LightSourceYInLowLight>240</LightSourceYInLowLight>
+    <LightSourceAvgY>90</LightSourceAvgY>
+    <LightSourceAvgYInLowLight>100</LightSourceAvgYInLowLight>
+    <LightSourceRatio>0.13</LightSourceRatio>
+    <LightSourceRatioInLowLight>0.16</LightSourceRatioInLowLight>
+  </SpotLightThresholds>
+  <!-- 低光多帧场景检测门限值 -->
+  <LowLightThresholds>
+    <EnterIsoThreshold>800</EnterIsoThreshold>
+    <EnterLumaThreshold>10</EnterLumaThreshold>
+    <EnterFpsThreshold>17</EnterFpsThreshold>
+    <QuitIsoThreshold>700</QuitIsoThreshold>
+    <QuitLumaThreshold>25</QuitLumaThreshold>
+    <QuitFpsThreshold>19</QuitFpsThreshold>
+  </LowLightThresholds>
+  <!-- LCD补光场景检测门限值 -->
+  <CompensationModeThresholds>
+    <EnterNightGainOrIsoThreshold>20</EnterNightGainOrIsoThreshold>
+    <EnterNightFpsThreshold>1</EnterNightFpsThreshold>
+    <QuitNightGainOrIsoThreshold>10.0</QuitNightGainOrIsoThreshold>
+    <QuitNightFpsThreshold>15</QuitNightFpsThreshold>
+    <QuitNightBvThreshold>0</QuitNightBvThreshold>
+    <EnterDarkGainOrIsoThreshold>50</EnterDarkGainOrIsoThreshold>
+    <EnterDarkFpsThreshold>1</EnterDarkFpsThreshold>
+    <QuitDarkToNightGainOrIsoThreshold>30.0</QuitDarkToNightGainOrIsoThreshold>
+    <QuitDarkToNightFpsThreshold>12</QuitDarkToNightFpsThreshold>
+    <QuitDarkGainOrIsoThreshold>10.0</QuitDarkGainOrIsoThreshold>
+    <QuitDarkFpsThreshold>15</QuitDarkFpsThreshold>
+    <TimeForStable>3</TimeForStable>     <!-- 稳定需要的次数 -->
+    <FirstFrameDelayForAeUnsettled>-1</FirstFrameDelayForAeUnsettled>   <!-- 正数表示AE未settle时需要调过多少帧再做检测，0 表示只有AE settled的时候才检测， 负数表示不关心AE是否settled   影检测的准确度和速度 -->
+    <IsUseIso>0</IsUseIso>       <!-- 0 表示用gain来做判断，其他值表示用ISO做判断-->
+  </CompensationModeThresholds>
+  <!-- LCD补光非正常模式场景检测门限值 -->
+  <CompensationAbnormalModeThresholds>
+    <EnterAbnormalModeGainOrIsoThreshold>14.6</EnterAbnormalModeGainOrIsoThreshold>
+    <EnterAbnormalModeFpsThreshold>10</EnterAbnormalModeFpsThreshold>
+    <EnterDarkBvThreshold>-7000</EnterDarkBvThreshold>
+    <EnterNightBvThreshold>-4500</EnterNightBvThreshold>
+    <QuitDarkToNightBvThreshold>-5500</QuitDarkToNightBvThreshold>
+    <EnterDarkMeanYThreshold>20</EnterDarkMeanYThreshold>
+    <EnterNightMeanYThreshold>40</EnterNightMeanYThreshold>
+    <QuitDarkToNightMeanYThreshold>30</QuitDarkToNightMeanYThreshold>
+  </CompensationAbnormalModeThresholds>
+  <!-- LCD补光闪光灯电流值选择门限值 -->
+  <CompensationLevelThresholds>
+    <Level1Threshold>1000</Level1Threshold>
+    <Level2Threshold>1000</Level2Threshold>
+    <Level3Threshold>1000</Level3Threshold>
+    <Level4Threshold>1000</Level4Threshold>
+  </CompensationLevelThresholds>
+  <!-- LCD补光闪光灯电流值 -->
+  <CompensationCurrentLevels>
+    <Level1>8</Level1>
+    <Level2>8</Level2>
+    <Level3>8</Level3>
+    <Level4>8</Level4>
+    <Level5>8</Level5>
+  </CompensationCurrentLevels>
+</SdConfig>
