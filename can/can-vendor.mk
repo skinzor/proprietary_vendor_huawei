@@ -171,6 +171,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
     vendor/huawei/can/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
     vendor/huawei/can/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
+    vendor/huawei/can/proprietary/etc/firmware/cannes_boe2_fw.img:system/etc/firmware/cannes_boe2_fw.img \
+    vendor/huawei/can/proprietary/etc/firmware/cannes_boe_fw.img:system/etc/firmware/cannes_boe_fw.img \
+    vendor/huawei/can/proprietary/etc/firmware/cannes_lg_fw.img:system/etc/firmware/cannes_lg_fw.img \
+    vendor/huawei/can/proprietary/etc/firmware/cannes_tianma_fw.img:system/etc/firmware/cannes_tianma_fw.img \
     vendor/huawei/can/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/huawei/can/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/huawei/can/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -180,6 +184,20 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
     vendor/huawei/can/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/huawei/can/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/huawei/can/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
+    vendor/huawei/can/proprietary/etc/firmware/ilitek_i2c.bin:system/etc/firmware/ilitek_i2c.bin \
+    vendor/huawei/can/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/huawei/can/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/huawei/can/proprietary/etc/firmware/milan_4322_ihex.bin:system/etc/firmware/milan_4322_ihex.bin \
+    vendor/huawei/can/proprietary/etc/firmware/milan_boe2_fw.img:system/etc/firmware/milan_boe2_fw.img \
+    vendor/huawei/can/proprietary/etc/firmware/milan_boe_fw.img:system/etc/firmware/milan_boe_fw.img \
+    vendor/huawei/can/proprietary/etc/firmware/milan_ctc_fw.img:system/etc/firmware/milan_ctc_fw.img \
+    vendor/huawei/can/proprietary/etc/firmware/milan_jdi_fw.img:system/etc/firmware/milan_jdi_fw.img \
+    vendor/huawei/can/proprietary/etc/firmware/milan_tianma_ft8716_fw.bin:system/etc/firmware/milan_tianma_ft8716_fw.bin \
+    vendor/huawei/can/proprietary/etc/firmware/milan_tianma_fw.img:system/etc/firmware/milan_tianma_fw.img \
+    vendor/huawei/can/proprietary/etc/firmware/qtc800s.bin:system/etc/firmware/qtc800s.bin \
+    vendor/huawei/can/proprietary/etc/firmware/qtc800s.cfg:system/etc/firmware/qtc800s.cfg \
+    vendor/huawei/can/proprietary/etc/firmware/venus_boe_fw.img:system/etc/firmware/venus_boe_fw.img \
     vendor/huawei/can/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/huawei/can/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/huawei/can/proprietary/etc/izat.conf:system/etc/izat.conf \
