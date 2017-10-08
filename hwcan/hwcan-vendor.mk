@@ -310,6 +310,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -351,6 +352,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libchromatix_hi843s_ofilm_a3_default_preview.so:system/vendor/lib/libchromatix_hi843s_ofilm_a3_default_preview.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libchromatix_hi843s_ofilm_a3_default_preview_16_9.so:system/vendor/lib/libchromatix_hi843s_ofilm_a3_default_preview_16_9.so \
@@ -672,31 +674,40 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera2_mct_shimlayer.so:system/vendor/lib/libmmcamera2_mct_shimlayer.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so:system/vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_cac3_lib.so:system/vendor/lib/libmmcamera_cac3_lib.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_chromaflash_hw.so:system/vendor/lib/libmmcamera_chromaflash_hw.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_csidtg.so:system/vendor/lib/libmmcamera_csidtg.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:system/vendor/lib/libmmcamera_dcrf_lib.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_dw9761b_2d_eeprom.so:system/vendor/lib/libmmcamera_dw9761b_2d_eeprom.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_eebinparse.so:system/vendor/lib/libmmcamera_eebinparse.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_facedetection_lib.so:system/vendor/lib/libmmcamera_facedetection_lib.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_gt24c64a_eeprom.so:system/vendor/lib/libmmcamera_gt24c64a_eeprom.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_hi843s_ofilm.so:system/vendor/lib/libmmcamera_hi843s_ofilm.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_imx258.so:system/vendor/lib/libmmcamera_imx258.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so:system/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_imx258_mono.so:system/vendor/lib/libmmcamera_imx258_mono.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_imx219_liteon.so:system/vendor/lib/libmmcamera_imx219_liteon.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_imx219_sunny.so:system/vendor/lib/libmmcamera_imx219_sunny.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_imx298.so:system/vendor/lib/libmmcamera_imx298.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_imx298_lg_sunny_eeprom.so:system/vendor/lib/libmmcamera_imx298_lg_sunny_eeprom.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_imx298_lgit.so:system/vendor/lib/libmmcamera_imx298_lgit.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_imx298_liteon.so:system/vendor/lib/libmmcamera_imx298_liteon.so \
-    vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_imx298_liteon_eeprom.so:system/vendor/lib/libmmcamera_imx298_liteon_eeprom.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_imx298_sunny.so:system/vendor/lib/libmmcamera_imx298_sunny.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_imx386_foxconn.so:system/vendor/lib/libmmcamera_imx386_foxconn.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_imx386_liteon.so:system/vendor/lib/libmmcamera_imx386_liteon.so \
@@ -734,13 +745,20 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_isp_template.so:system/vendor/lib/libmmcamera_isp_template.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_le2464c_master_eeprom.so:system/vendor/lib/libmmcamera_le2464c_master_eeprom.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_ov12870_sunny.so:system/vendor/lib/libmmcamera_ov12870_sunny.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_ov12870_sunny_middle.so:system/vendor/lib/libmmcamera_ov12870_sunny_middle.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so:system/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_s5k3l8.so:system/vendor/lib/libmmcamera_s5k3l8.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_s5k3l8_mono.so:system/vendor/lib/libmmcamera_s5k3l8_mono.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:system/vendor/lib/libmmcamera_sony_imx298_eeprom.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_sw_tnr.so:system/vendor/lib/libmmcamera_sw_tnr.so \
@@ -748,6 +766,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_truly_cma481_eeprom.so:system/vendor/lib/libmmcamera_truly_cma481_eeprom.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
@@ -780,6 +799,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
