@@ -327,8 +327,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libactuator_bu64297.so:system/vendor/lib/libactuator_bu64297.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libactuator_bu64297_imx386_liteon.so:system/vendor/lib/libactuator_bu64297_imx386_liteon.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libactuator_dw9800_imx386_foxconn.so:system/vendor/lib/libactuator_dw9800_imx386_foxconn.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libactuator_dw9800_ov12870_sunny.so:system/vendor/lib/libactuator_dw9800_ov12870_sunny.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libactuator_lc898212xd_qc2002.so:system/vendor/lib/libactuator_lc898212xd_qc2002.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libactuator_lc898214.so:system/vendor/lib/libactuator_lc898214.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libactuator_lc898214_imx298_lgit.so:system/vendor/lib/libactuator_lc898214_imx298_lgit.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libactuator_lc898214_imx298_lgit_fty.so:system/vendor/lib/libactuator_lc898214_imx298_lgit_fty.so \
