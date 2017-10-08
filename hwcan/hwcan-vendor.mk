@@ -993,4 +993,5 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     qcrilmsgtunnel \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    qdcm_calib_data_JDI_SD6FA1_5P0_1080P_VIDEO.xml
