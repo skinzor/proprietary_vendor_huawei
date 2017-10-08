@@ -140,17 +140,6 @@ special_mode_mask values:
       <A3Video>imx298_liteon_3a_hfr_120_video</A3Video>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="5" special_mode_mask="0">
-     <ISPPreview>imx298_liteon_snapshot</ISPPreview>
-      <ISPSnapshot>imx298_liteon_snapshot</ISPSnapshot>
-      <ISPVideo>imx298_liteon_snapshot</ISPVideo>
-      <CPPPreview>imx298_liteon_cpp_preview</CPPPreview>
-      <CPPSnapshot>imx298_liteon_cpp_snapshot</CPPSnapshot>
-      <CPPVideo>imx298_liteon_cpp_video</CPPVideo>
-      <CPPLiveshot>imx298_liteon_cpp_liveshot</CPPLiveshot>
-      <A3Preview>imx298_liteon_4K_preview</A3Preview>
-      <A3Video>imx298_liteon_4K_video</A3Video>
-    </ChromatixName>
-    <ChromatixName sensor_resolution_index="6" special_mode_mask="0">
       <ISPPreview>imx298_liteon_snapshot</ISPPreview>
       <ISPSnapshot>imx298_liteon_snapshot</ISPSnapshot>
       <ISPVideo>imx298_liteon_video</ISPVideo>

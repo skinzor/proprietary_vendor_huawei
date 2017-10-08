@@ -49,6 +49,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/huawei/hwcan/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/huawei/hwcan/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/xiaomi/hwcan/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
+    vendor/xiaomi/hwcan/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
+    vendor/xiaomi/hwcan/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
+    vendor/xiaomi/hwcan/proprietary/etc/camera/imx258_chromatix.xml:system/etc/camera/imx258_chromatix.xml \
+    vendor/xiaomi/hwcan/proprietary/etc/camera/imx258_mono_chromatix.xml:system/etc/camera/imx258_mono_chromatix.xml \
+    vendor/xiaomi/hwcan/proprietary/etc/camera/s5k3l8_chromatix.xml:system/etc/camera/s5k3l8_chromatix.xml \
+    vendor/xiaomi/hwcan/proprietary/etc/camera/s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
+    vendor/xiaomi/hwcan/proprietary/etc/camera/s5k3l8_mono_chromatix.xml:system/etc/camera/s5k3l8_mono_chromatix.xml \
     vendor/huawei/hwcan/proprietary/etc/camera/dflash/calPara4Selection.txt:system/etc/camera/dflash/calPara4Selection.txt \
     vendor/huawei/hwcan/proprietary/etc/camera/dflash/calibration_000.txt:system/etc/camera/dflash/calibration_000.txt \
     vendor/huawei/hwcan/proprietary/etc/camera/dflash/calibration_001.txt:system/etc/camera/dflash/calibration_001.txt \
@@ -98,43 +106,16 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/etc/camera/msm8953_camera_fty.xml:system/etc/camera/msm8953_camera_fty.xml \
     vendor/huawei/hwcan/proprietary/etc/camera/ov12870_sunny_chromatix.xml:system/etc/camera/ov12870_sunny_chromatix.xml \
     vendor/huawei/hwcan/proprietary/etc/camera/smartae/default/SmartAE.xml:system/etc/camera/smartae/default/SmartAE.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/smartae/device.config:system/etc/camera/smartae/device.config \
-    vendor/huawei/hwcan/proprietary/etc/camera/smartae/hi843s_ofilm/SmartAE.xml:system/etc/camera/smartae/hi843s_ofilm/SmartAE.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/smartae/imx219_liteon/SmartAE.xml:system/etc/camera/smartae/imx219_liteon/SmartAE.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/smartae/imx219_sunny/SmartAE.xml:system/etc/camera/smartae/imx219_sunny/SmartAE.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/smartae/imx298_lgit/SmartAE.xml:system/etc/camera/smartae/imx298_lgit/SmartAE.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/smartae/imx298_liteon/SmartAE.xml:system/etc/camera/smartae/imx298_liteon/SmartAE.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/smartae/imx298_sunny/SmartAE.xml:system/etc/camera/smartae/imx298_sunny/SmartAE.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/smartae/imx386_foxconn/SmartAE.xml:system/etc/camera/smartae/imx386_foxconn/SmartAE.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/smartae/imx386_liteon/SmartAE.xml:system/etc/camera/smartae/imx386_liteon/SmartAE.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/smartae/ov12870_sunny/SmartAE.xml:system/etc/camera/smartae/ov12870_sunny/SmartAE.xml \
     vendor/huawei/hwcan/proprietary/etc/camera/tornado/FoliageMinMaxTOA.txt:system/etc/camera/tornado/FoliageMinMaxTOA.txt \
     vendor/huawei/hwcan/proprietary/etc/camera/tornado/FoliageModelTOA.model:system/etc/camera/tornado/FoliageModelTOA.model \
+    vendor/huawei/hwcan/proprietary/etc/camera/tornado/IndoorFeatureFilterTOA.txt:system/etc/camera/tornado/IndoorFeatureFilterTOA.txt \
+    vendor/huawei/hwcan/proprietary/etc/camera/tornado/IndoorModelTOA.model:system/etc/camera/tornado/IndoorModelTOA.model \
     vendor/huawei/hwcan/proprietary/etc/camera/tornado/NightMinMaxTOA.txt:system/etc/camera/tornado/NightMinMaxTOA.txt \
     vendor/huawei/hwcan/proprietary/etc/camera/tornado/NightModelTOA.model:system/etc/camera/tornado/NightModelTOA.model \
     vendor/huawei/hwcan/proprietary/etc/camera/tornado/SunsetMinMaxTOA.txt:system/etc/camera/tornado/SunsetMinMaxTOA.txt \
     vendor/huawei/hwcan/proprietary/etc/camera/tornado/SunsetModelTOA.model:system/etc/camera/tornado/SunsetModelTOA.model \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/cfgpath.config:system/etc/camera/tornado/cfgpath.config \
     vendor/huawei/hwcan/proprietary/etc/camera/tornado/default/TornadoI.ini:system/etc/camera/tornado/default/TornadoI.ini \
     vendor/huawei/hwcan/proprietary/etc/camera/tornado/default/hwsdcfg.xml:system/etc/camera/tornado/default/hwsdcfg.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/hi843s_ofilm/TornadoI.ini:system/etc/camera/tornado/hi843s_ofilm/TornadoI.ini \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/hi843s_ofilm/hwsdcfg.xml:system/etc/camera/tornado/hi843s_ofilm/hwsdcfg.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/imx219_liteon/TornadoI.ini:system/etc/camera/tornado/imx219_liteon/TornadoI.ini \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/imx219_liteon/hwsdcfg.xml:system/etc/camera/tornado/imx219_liteon/hwsdcfg.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/imx219_sunny/TornadoI.ini:system/etc/camera/tornado/imx219_sunny/TornadoI.ini \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/imx219_sunny/hwsdcfg.xml:system/etc/camera/tornado/imx219_sunny/hwsdcfg.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/imx298_lgit/TornadoI.ini:system/etc/camera/tornado/imx298_lgit/TornadoI.ini \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/imx298_lgit/hwsdcfg.xml:system/etc/camera/tornado/imx298_lgit/hwsdcfg.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/imx298_liteon/TornadoI.ini:system/etc/camera/tornado/imx298_liteon/TornadoI.ini \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/imx298_liteon/hwsdcfg.xml:system/etc/camera/tornado/imx298_liteon/hwsdcfg.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/imx298_sunny/TornadoI.ini:system/etc/camera/tornado/imx298_sunny/TornadoI.ini \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/imx298_sunny/hwsdcfg.xml:system/etc/camera/tornado/imx298_sunny/hwsdcfg.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/imx386_foxconn/TornadoI.ini:system/etc/camera/tornado/imx386_foxconn/TornadoI.ini \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/imx386_foxconn/hwsdcfg.xml:system/etc/camera/tornado/imx386_foxconn/hwsdcfg.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/imx386_liteon/TornadoI.ini:system/etc/camera/tornado/imx386_liteon/TornadoI.ini \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/imx386_liteon/hwsdcfg.xml:system/etc/camera/tornado/imx386_liteon/hwsdcfg.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/ov12870_sunny/TornadoI.ini:system/etc/camera/tornado/ov12870_sunny/TornadoI.ini \
-    vendor/huawei/hwcan/proprietary/etc/camera/tornado/ov12870_sunny/hwsdcfg.xml:system/etc/camera/tornado/ov12870_sunny/hwsdcfg.xml \
     vendor/huawei/hwcan/proprietary/etc/camera/tracking/targettracking.xml:system/etc/camera/tracking/targettracking.xml \
     vendor/xiaomi/hwcan/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/xiaomi/hwcan/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \

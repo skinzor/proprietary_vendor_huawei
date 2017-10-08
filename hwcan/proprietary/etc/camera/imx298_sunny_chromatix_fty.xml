@@ -142,17 +142,6 @@ special_mode_mask values:
     <ChromatixName sensor_resolution_index="5" special_mode_mask="0">
       <ISPPreview>imx298_sunny_snapshot</ISPPreview>
       <ISPSnapshot>imx298_sunny_snapshot</ISPSnapshot>
-      <ISPVideo>imx298_sunny_snapshot</ISPVideo>
-      <CPPPreview>imx298_sunny_cpp_preview</CPPPreview>
-      <CPPSnapshot>imx298_sunny_cpp_snapshot</CPPSnapshot>
-      <CPPVideo>imx298_sunny_cpp_video</CPPVideo>
-      <CPPLiveshot>imx298_sunny_cpp_liveshot</CPPLiveshot>
-      <A3Preview>imx298_sunny_4K_preview</A3Preview>
-      <A3Video>imx298_sunny_4K_video</A3Video>
-    </ChromatixName>
-    <ChromatixName sensor_resolution_index="6" special_mode_mask="0">
-      <ISPPreview>imx298_sunny_snapshot</ISPPreview>
-      <ISPSnapshot>imx298_sunny_snapshot</ISPSnapshot>
       <ISPVideo>imx298_sunny_video</ISPVideo>
       <CPPPreview>imx298_sunny_cpp_preview</CPPPreview>
       <CPPSnapshot>imx298_sunny_cpp_snapshot</CPPSnapshot>
