@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/huawei/hwcan/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/hwcan/proprietary/bin/cnd:system/bin/cnd \
+    vendor/xiaomi/hwcan/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/huawei/hwcan/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/huawei/hwcan/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/huawei/hwcan/proprietary/bin/energy-awareness:system/bin/energy-awareness \
@@ -137,6 +138,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/huawei/hwcan/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/huawei/hwcan/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
+    vendor/xiaomi/hwcan/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
+    vendor/xiaomi/hwcan/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/huawei/hwcan/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
     vendor/huawei/hwcan/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/huawei/hwcan/proprietary/etc/firmware/a506_zap.b00:system/etc/firmware/a506_zap.b00 \
@@ -185,16 +188,20 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/xiaomi/hwcan/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/xiaomi/hwcan/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/xiaomi/hwcan/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/huawei/hwcan/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/huawei/hwcan/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/hwcan/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/xiaomi/hwcan/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/huawei/hwcan/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/hwcan/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/huawei/hwcan/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/huawei/hwcan/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/xiaomi/hwcan/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/xiaomi/hwcan/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/xiaomi/hwcan/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/xiaomi/hwcan/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/xiaomi/hwcan/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/huawei/hwcan/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/huawei/hwcan/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/huawei/hwcan/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
@@ -214,6 +221,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin \
     vendor/huawei/hwcan/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/huawei/hwcan/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/xiaomi/hwcan/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/huawei/hwcan/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/huawei/hwcan/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/huawei/hwcan/proprietary/lib/libBestShot.so:system/lib/libBestShot.so \
@@ -618,6 +626,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -874,6 +887,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
