@@ -51,6 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hwcan/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/huawei/hwcan/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/huawei/hwcan/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
+    vendor/xiaomi/hwcan/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/xiaomi/hwcan/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/hwcan/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/huawei/hwcan/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
