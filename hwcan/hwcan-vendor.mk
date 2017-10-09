@@ -37,12 +37,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/bin/oeminfo_nvm_server:system/bin/oeminfo_nvm_server \
     vendor/huawei/hwcan/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/huawei/hwcan/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/xiaomi/hwcan/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/huawei/hwcan/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/hwcan/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/huawei/hwcan/proprietary/bin/radish:system/bin/radish \
     vendor/huawei/hwcan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/hwcan/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/huawei/hwcan/proprietary/bin/teecd:system/bin/teecd \
+    vendor/xiaomi/hwcan/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/huawei/hwcan/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/huawei/hwcan/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/hwcan/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
@@ -186,9 +188,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/hwcan/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/xiaomi/hwcan/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    vendor/xiaomi/hwcan/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/xiaomi/hwcan/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/huawei/hwcan/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/hwcan/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/xiaomi/hwcan/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/huawei/hwcan/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/huawei/hwcan/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/xiaomi/hwcan/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
@@ -272,6 +276,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/huawei/hwcan/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/huawei/hwcan/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
+    vendor/xiaomi/hwcan/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/huawei/hwcan/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/huawei/hwcan/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/huawei/hwcan/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
@@ -655,6 +660,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
@@ -925,6 +932,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
@@ -958,9 +966,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
@@ -976,6 +986,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hwcan/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
@@ -995,11 +1006,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
     libsdm-disp-apis \
     libqmi_oem_api \
-    libmdmdetect \
     libthermalclient \
     libtime_genoff \
     TimeService \
