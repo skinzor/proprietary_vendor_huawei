@@ -173,10 +173,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/etc/firmware/milan_jdi_fw.img:system/etc/firmware/milan_jdi_fw.img \
     vendor/huawei/hwcan/proprietary/etc/firmware/milan_tianma_fw.img:system/etc/firmware/milan_tianma_fw.img \
     vendor/huawei/hwcan/proprietary/etc/firmware/venus_boe_fw.img:system/etc/firmware/venus_boe_fw.img \
-    vendor/huawei/hwcan/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/huawei/hwcan/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/huawei/hwcan/proprietary/etc/izat.conf:system/etc/izat.conf \
-    vendor/huawei/hwcan/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/xiaomi/hwcan/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/xiaomi/hwcan/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/hwcan/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -193,9 +189,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hwcan/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/xiaomi/hwcan/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/xiaomi/hwcan/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/huawei/hwcan/proprietary/etc/sap.conf:system/etc/sap.conf \
-    vendor/huawei/hwcan/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/huawei/hwcan/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv.bin:system/etc/wifi/WCNSS_hw_wlan_nv.bin \
     vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_al00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_al00.bin \
     vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_al00_no_fem.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_al00_no_fem.bin \
@@ -210,7 +203,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_l02.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_l02.bin \
     vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_l03.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_l03.bin \
     vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin \
-    vendor/huawei/hwcan/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/huawei/hwcan/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/xiaomi/hwcan/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/huawei/hwcan/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
