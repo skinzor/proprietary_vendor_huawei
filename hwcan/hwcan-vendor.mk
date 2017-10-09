@@ -24,6 +24,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/huawei/hwcan/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/hwcan/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/xiaomi/hwcan/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/xiaomi/hwcan/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/xiaomi/hwcan/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/xiaomi/hwcan/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/huawei/hwcan/proprietary/bin/iop:system/bin/iop \
     vendor/xiaomi/hwcan/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/huawei/hwcan/proprietary/bin/irsc_util:system/bin/irsc_util \
@@ -189,6 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hwcan/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/xiaomi/hwcan/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/xiaomi/hwcan/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
+    vendor/xiaomi/hwcan/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/xiaomi/hwcan/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/huawei/hwcan/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/hwcan/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
@@ -197,13 +202,17 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/xiaomi/hwcan/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/xiaomi/hwcan/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/xiaomi/hwcan/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/hwcan/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/xiaomi/hwcan/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/xiaomi/hwcan/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/xiaomi/hwcan/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/xiaomi/hwcan/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/xiaomi/hwcan/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/xiaomi/hwcan/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
+    vendor/xiaomi/hwcan/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/xiaomi/hwcan/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/xiaomi/hwcan/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv.bin:system/etc/wifi/WCNSS_hw_wlan_nv.bin \
     vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_al00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_al00.bin \
     vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_al00_no_fem.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_al00_no_fem.bin \
@@ -857,6 +866,24 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/hw/keystore.msm8953.so:system/vendor/lib64/hw/keystore.msm8953.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib64/hw/vulkan.msm8953.so:system/vendor/lib64/hw/vulkan.msm8953.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
@@ -919,6 +946,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
@@ -995,6 +1024,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hwcan/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
@@ -1016,9 +1046,12 @@ PRODUCT_PACKAGES += \
     TimeService \
     shutdownlistener \
     CNEService \
+    embms \
     QtiTetherService \
     com.qualcomm.location \
     com.qti.location.sdk \
     qcrilmsgtunnel \
+    ims \
+    imssettings \
     qcrilhook \
     qdcm_calib_data_JDI_SD6FA1_5P0_1080P_VIDEO.xml
