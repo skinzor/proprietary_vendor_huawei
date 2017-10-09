@@ -235,6 +235,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/lib/libhw_hal.so:system/lib/libhw_hal.so \
     vendor/xiaomi/hwcan/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/huawei/hwcan/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/xiaomi/hwcan/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/huawei/hwcan/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/huawei/hwcan/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/huawei/hwcan/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -260,6 +261,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/lib64/libhw_hal.so:system/lib64/libhw_hal.so \
     vendor/xiaomi/hwcan/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/huawei/hwcan/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/xiaomi/hwcan/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
+    vendor/xiaomi/hwcan/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/huawei/hwcan/proprietary/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
     vendor/huawei/hwcan/proprietary/lib64/libqmi_nv_api.so:system/lib64/libqmi_nv_api.so \
     vendor/huawei/hwcan/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
@@ -284,13 +287,22 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib/hw/sound_trigger.primary.msm8953.so:system/vendor/lib/hw/sound_trigger.primary.msm8953.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib/hw/vulkan.msm8953.so:system/vendor/lib/hw/vulkan.msm8953.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libOmxApeDec.so:system/vendor/lib/libOmxApeDec.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libOmxApeDecSw.so:system/vendor/lib/libOmxApeDecSw.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libOmxAlacDecSw.so:system/vendor/lib/libOmxAlacDecSw.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
@@ -751,6 +763,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmsw_detail_enhancement.so:system/vendor/lib/libmmsw_detail_enhancement.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libois_lc898123.so:system/vendor/lib/libois_lc898123.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
@@ -838,6 +854,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hwcan/proprietary/vendor/lib64/libGPTEE.so:system/vendor/lib64/libGPTEE.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
@@ -902,10 +922,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
