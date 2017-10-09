@@ -813,6 +813,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
@@ -981,6 +982,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hwcan/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
