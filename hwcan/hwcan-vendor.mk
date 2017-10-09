@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/hwcan/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/huawei/hwcan/proprietary/bin/iop:system/bin/iop \
+    vendor/xiaomi/hwcan/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/huawei/hwcan/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/huawei/hwcan/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
     vendor/huawei/hwcan/proprietary/bin/loc_launcher:system/bin/loc_launcher \
