@@ -281,6 +281,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/hw/gatekeeper.msm8953.so:system/vendor/lib/hw/gatekeeper.msm8953.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/hw/vulkan.msm8953.so:system/vendor/lib/hw/vulkan.msm8953.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
@@ -630,6 +631,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
@@ -773,6 +775,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hwcan/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
@@ -823,6 +826,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/hw/keystore.msm8953.so:system/vendor/lib64/hw/keystore.msm8953.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/hw/vulkan.msm8953.so:system/vendor/lib64/hw/vulkan.msm8953.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
@@ -886,6 +890,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
@@ -894,6 +899,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
@@ -930,6 +936,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libscalar.so:system/vendor/lib64/libscalar.so \
+    vendor/xiaomi/hwcan/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
@@ -960,6 +967,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
 
 PRODUCT_PACKAGES += \
+    libsdm-disp-apis \
     libqmi_oem_api \
     libmdmdetect \
     libthermalclient \
@@ -968,6 +976,7 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     CNEService \
     com.qualcomm.location \
+    com.qti.location.sdk \
     qcrilmsgtunnel \
     qcrilhook \
     qdcm_calib_data_JDI_SD6FA1_5P0_1080P_VIDEO.xml
