@@ -206,7 +206,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/xiaomi/hwcan/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/huawei/hwcan/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
-    vendor/huawei/hwcan/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/huawei/hwcan/proprietary/lib/libBestShot.so:system/lib/libBestShot.so \
     vendor/huawei/hwcan/proprietary/lib/libDocBeauty.so:system/lib/libDocBeauty.so \
     vendor/huawei/hwcan/proprietary/lib/libFaceBeautyMeiwo.so:system/lib/libFaceBeautyMeiwo.so \
@@ -220,14 +219,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/lib/libcamera_post_mediaserver.so:system/lib/libcamera_post_mediaserver.so \
     vendor/huawei/hwcan/proprietary/lib/libcamera_wrapper_algo_omron_makeup.so:system/lib/libcamera_wrapper_algo_omron_makeup.so \
     vendor/huawei/hwcan/proprietary/lib/libdcamera_sr.so:system/lib/libdcamera_sr.so \
-    vendor/huawei/hwcan/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/huawei/hwcan/proprietary/lib/libhdr.so:system/lib/libhdr.so \
     vendor/huawei/hwcan/proprietary/lib/libhuawei_secure.so:system/lib/libhuawei_secure.so \
     vendor/huawei/hwcan/proprietary/lib/libhuaweicust.so:system/lib/libhuaweicust.so \
     vendor/huawei/hwcan/proprietary/lib/libhw_hal.so:system/lib/libhw_hal.so \
-    vendor/huawei/hwcan/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/huawei/hwcan/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/huawei/hwcan/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/huawei/hwcan/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/huawei/hwcan/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/huawei/hwcan/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -245,17 +241,13 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/lib/libtrack.so:system/lib/libtrack.so \
     vendor/huawei/hwcan/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/huawei/hwcan/proprietary/lib64/hw/fingerprint.msm8953.so:system/lib64/hw/fingerprint.msm8953.so \
-    vendor/huawei/hwcan/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/huawei/hwcan/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/hwcan/proprietary/lib64/libbtaddr.so:system/lib64/libbtaddr.so \
     vendor/huawei/hwcan/proprietary/lib64/libbtpower.so:system/lib64/libbtpower.so \
-    vendor/huawei/hwcan/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/huawei/hwcan/proprietary/lib64/libhuawei_secure.so:system/lib64/libhuawei_secure.so \
     vendor/huawei/hwcan/proprietary/lib64/libhuaweicust.so:system/lib64/libhuaweicust.so \
     vendor/huawei/hwcan/proprietary/lib64/libhw_hal.so:system/lib64/libhw_hal.so \
-    vendor/huawei/hwcan/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/huawei/hwcan/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/huawei/hwcan/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/huawei/hwcan/proprietary/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
     vendor/huawei/hwcan/proprietary/lib64/libqmi_nv_api.so:system/lib64/libqmi_nv_api.so \
     vendor/huawei/hwcan/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
@@ -314,9 +306,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
-    vendor/huawei/hwcan/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
-    vendor/huawei/hwcan/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
-    vendor/huawei/hwcan/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
@@ -620,7 +609,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
-    vendor/huawei/hwcan/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
@@ -955,7 +943,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
 
 PRODUCT_PACKAGES += \
-    libloc_api_v02 \
     libqmi_oem_api \
     libmdmdetect \
     libthermalclient \
