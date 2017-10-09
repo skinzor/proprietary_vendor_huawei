@@ -88,10 +88,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/etc/camera/filter/filterscap.xml:system/etc/camera/filter/filterscap.xml \
     vendor/huawei/hwcan/proprietary/etc/camera/filter/mixIm.dat:system/etc/camera/filter/mixIm.dat \
     vendor/huawei/hwcan/proprietary/etc/camera/hi843s_ofilm_chromatix.xml:system/etc/camera/hi843s_ofilm_chromatix.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/hwldc/device.config:system/etc/camera/hwldc/device.config \
-    vendor/huawei/hwcan/proprietary/etc/camera/hwldc/hi843s_ofilm/hwldc_config.xml:system/etc/camera/hwldc/hi843s_ofilm/hwldc_config.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/hwldc/imx219_liteon/hwldc_config.xml:system/etc/camera/hwldc/imx219_liteon/hwldc_config.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/hwldc/imx219_sunny/hwldc_config.xml:system/etc/camera/hwldc/imx219_sunny/hwldc_config.xml \
     vendor/huawei/hwcan/proprietary/etc/camera/imx219_liteon_chromatix.xml:system/etc/camera/imx219_liteon_chromatix.xml \
     vendor/huawei/hwcan/proprietary/etc/camera/imx219_sunny_chromatix.xml:system/etc/camera/imx219_sunny_chromatix.xml \
     vendor/huawei/hwcan/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
@@ -103,8 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/etc/camera/imx298_sunny_chromatix_fty.xml:system/etc/camera/imx298_sunny_chromatix_fty.xml \
     vendor/huawei/hwcan/proprietary/etc/camera/imx386_foxconn_chromatix.xml:system/etc/camera/imx386_foxconn_chromatix.xml \
     vendor/huawei/hwcan/proprietary/etc/camera/imx386_liteon_chromatix.xml:system/etc/camera/imx386_liteon_chromatix.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/msm8953_camera.xml:system/etc/camera/msm8953_camera.xml \
-    vendor/huawei/hwcan/proprietary/etc/camera/msm8953_camera_fty.xml:system/etc/camera/msm8953_camera_fty.xml \
     vendor/huawei/hwcan/proprietary/etc/camera/ov12870_sunny_chromatix.xml:system/etc/camera/ov12870_sunny_chromatix.xml \
     vendor/huawei/hwcan/proprietary/etc/camera/smartae/default/SmartAE.xml:system/etc/camera/smartae/default/SmartAE.xml \
     vendor/huawei/hwcan/proprietary/etc/camera/tornado/FoliageMinMaxTOA.txt:system/etc/camera/tornado/FoliageMinMaxTOA.txt \
@@ -177,10 +171,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/etc/firmware/milan_boe_fw.img:system/etc/firmware/milan_boe_fw.img \
     vendor/huawei/hwcan/proprietary/etc/firmware/milan_ctc_fw.img:system/etc/firmware/milan_ctc_fw.img \
     vendor/huawei/hwcan/proprietary/etc/firmware/milan_jdi_fw.img:system/etc/firmware/milan_jdi_fw.img \
-    vendor/huawei/hwcan/proprietary/etc/firmware/milan_tianma_ft8716_fw.bin:system/etc/firmware/milan_tianma_ft8716_fw.bin \
     vendor/huawei/hwcan/proprietary/etc/firmware/milan_tianma_fw.img:system/etc/firmware/milan_tianma_fw.img \
-    vendor/huawei/hwcan/proprietary/etc/firmware/qtc800s.bin:system/etc/firmware/qtc800s.bin \
-    vendor/huawei/hwcan/proprietary/etc/firmware/qtc800s.cfg:system/etc/firmware/qtc800s.cfg \
     vendor/huawei/hwcan/proprietary/etc/firmware/venus_boe_fw.img:system/etc/firmware/venus_boe_fw.img \
     vendor/huawei/hwcan/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/huawei/hwcan/proprietary/etc/gps.conf:system/etc/gps.conf \
@@ -237,7 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/lib/libcamera_post_mediaserver.so:system/lib/libcamera_post_mediaserver.so \
     vendor/huawei/hwcan/proprietary/lib/libcamera_wrapper_algo_omron_makeup.so:system/lib/libcamera_wrapper_algo_omron_makeup.so \
     vendor/huawei/hwcan/proprietary/lib/libdcamera_sr.so:system/lib/libdcamera_sr.so \
-    vendor/huawei/hwcan/proprietary/lib/libdmd.so:system/lib/libdmd.so \
     vendor/huawei/hwcan/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/huawei/hwcan/proprietary/lib/libhdr.so:system/lib/libhdr.so \
     vendor/huawei/hwcan/proprietary/lib/libhuawei_secure.so:system/lib/libhuawei_secure.so \
@@ -267,7 +257,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/hwcan/proprietary/lib64/libbtaddr.so:system/lib64/libbtaddr.so \
     vendor/huawei/hwcan/proprietary/lib64/libbtpower.so:system/lib64/libbtpower.so \
-    vendor/huawei/hwcan/proprietary/lib64/libdmd.so:system/lib64/libdmd.so \
     vendor/huawei/hwcan/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/huawei/hwcan/proprietary/lib64/libhuawei_secure.so:system/lib64/libhuawei_secure.so \
     vendor/huawei/hwcan/proprietary/lib64/libhuaweicust.so:system/lib64/libhuaweicust.so \
@@ -648,8 +637,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/huawei/hwcan/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
-    vendor/huawei/hwcan/proprietary/vendor/lib/libllvd_sw_tnr.so:system/vendor/lib/libllvd_sw_tnr.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
@@ -758,14 +745,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_s5k3l8_mono.so:system/vendor/lib/libmmcamera_s5k3l8_mono.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:system/vendor/lib/libmmcamera_sony_imx298_eeprom.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
-    vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_sw_tnr.so:system/vendor/lib/libmmcamera_sw_tnr.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
     vendor/xiaomi/hwcan/proprietary/vendor/lib/libmmcamera_truly_cma481_eeprom.so:system/vendor/lib/libmmcamera_truly_cma481_eeprom.so \
-    vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
-    vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
@@ -775,7 +759,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/libois_lc898123.so:system/vendor/lib/libois_lc898123.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/huawei/hwcan/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
@@ -908,7 +891,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
-    vendor/huawei/hwcan/proprietary/vendor/lib64/libloc_xtra.so:system/vendor/lib64/libloc_xtra.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
@@ -927,7 +909,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/huawei/hwcan/proprietary/vendor/lib64/libqc-opt.so:system/vendor/lib64/libqc-opt.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
@@ -992,6 +973,5 @@ PRODUCT_PACKAGES += \
     CNEService \
     com.qualcomm.location \
     qcrilmsgtunnel \
-    qcnvitems \
     qcrilhook \
     qdcm_calib_data_JDI_SD6FA1_5P0_1080P_VIDEO.xml
