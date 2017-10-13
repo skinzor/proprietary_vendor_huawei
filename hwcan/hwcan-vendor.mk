@@ -816,10 +816,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
-    vendor/huawei/hwcan/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
-    vendor/huawei/hwcan/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
-    vendor/huawei/hwcan/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
