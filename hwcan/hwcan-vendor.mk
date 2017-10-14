@@ -267,7 +267,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/lib/libscenedetection.so:system/lib/libscenedetection.so \
     vendor/huawei/hwcan/proprietary/lib/libtrack.so:system/lib/libtrack.so \
     vendor/huawei/hwcan/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/huawei/hwcan/proprietary/lib64/hw/fingerprint.msm8953.so:system/lib64/hw/fingerprint.msm8953.so \
+    vendor/huawei/hwcan/proprietary/lib64/hw/fingerprint.vendor.msm8953.so:system/lib64/hw/fingerprint.vendor.msm8953.so \
     vendor/huawei/hwcan/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/hwcan/proprietary/lib64/libbtaddr.so:system/lib64/libbtaddr.so \
     vendor/huawei/hwcan/proprietary/lib64/libbtpower.so:system/lib64/libbtpower.so \
