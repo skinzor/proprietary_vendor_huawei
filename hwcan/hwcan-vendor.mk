@@ -274,9 +274,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/lib64/libhuawei_secure.so:system/lib64/libhuawei_secure.so \
     vendor/huawei/hwcan/proprietary/lib64/libhuaweicust.so:system/lib64/libhuaweicust.so \
     vendor/huawei/hwcan/proprietary/lib64/libhw_hal.so:system/lib64/libhw_hal.so \
-    vendor/huawei/hwcan/proprietary/lib64/libhwdaphal.so:system/lib64/libhwdaphal.so \
-    vendor/huawei/hwcan/proprietary/lib64/libhwlog.so:system/lib64/libhwlog.so \
-    vendor/huawei/hwcan/proprietary/lib64/libimonitor.so:system/lib64/libimonitor.so \
     vendor/huawei/hwcan/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/huawei/hwcan/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/huawei/hwcan/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
@@ -955,7 +952,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/huawei/hwcan/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
+    vendor/huawei/hwcan/proprietary/vendor/lib64/libhwlog.so:system/vendor/lib64/libhwlog.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/huawei/hwcan/proprietary/vendor/lib64/libimonitor.so:system/vendor/lib64/libimonitor.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
