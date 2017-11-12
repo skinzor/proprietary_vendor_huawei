@@ -1049,15 +1049,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/huawei/hwcan/proprietary/vendor/qcril.db:system/vendor/qcril.db \
-    vendor/huawei/can/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
-    vendor/huawei/can/proprietary/vendor/firmware/libpn551_fw.so:system/vendor/firmware/libpn551_fw.so \
-    vendor/huawei/can/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
-    vendor/huawei/can/proprietary/vendor/lib64/mmi_nfc.so:system/vendor/lib64/mmi_nfc.so \
-    vendor/huawei/can/proprietary/lib/libnfc-nci-45-551.so:system/lib/libnfc-nci-45-551.so \
-    vendor/huawei/can/proprietary/lib/libnfc_nci_jni_45_551.so:system/lib/libnfc_nci_jni_45_551.so \
-    vendor/huawei/can/proprietary/lib64/libnfc-nci-45-551.so:system/lib64/libnfc-nci-45-551.so \
-    vendor/huawei/can/proprietary/lib64/libnfc_nci_jni_45_551.so:system/lib64/libnfc_nci_jni_45_551.so \
-    vendor/huawei/can/proprietary/lib64/hw/nfc_nci.pn54x_45_551.default.so:system/lib64/hw/nfc_nci.pn54x_45_551.default.so
+    vendor/huawei/hwcan/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+    vendor/huawei/hwcan/proprietary/vendor/firmware/libpn551_fw.so:system/vendor/firmware/libpn551_fw.so \
+    vendor/huawei/hwcan/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
+    vendor/huawei/hwcan/proprietary/vendor/lib64/mmi_nfc.so:system/vendor/lib64/mmi_nfc.so \
+    vendor/huawei/hwcan/proprietary/lib/libnfc-nci-45-551.so:system/lib/libnfc-nci-45-551.so \
+    vendor/huawei/hwcan/proprietary/lib/libnfc_nci_jni_45_551.so:system/lib/libnfc_nci_jni_45_551.so \
+    vendor/huawei/hwcan/proprietary/lib64/libnfc-nci-45-551.so:system/lib64/libnfc-nci-45-551.so \
+    vendor/huawei/hwcan/proprietary/lib64/libnfc_nci_jni_45_551.so:system/lib64/libnfc_nci_jni_45_551.so \
+    vendor/huawei/hwcan/proprietary/lib64/hw/nfc_nci.pn54x_45_551.default.so:system/lib64/hw/nfc_nci.pn54x_45_551.default.so
 
 PRODUCT_PACKAGES += \
     libsdm-disp-apis \
