@@ -1057,7 +1057,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/lib/libnfc_nci_jni_45_551.so:system/lib/libnfc_nci_jni_45_551.so \
     vendor/huawei/hwcan/proprietary/lib64/libnfc-nci-45-551.so:system/lib64/libnfc-nci-45-551.so \
     vendor/huawei/hwcan/proprietary/lib64/libnfc_nci_jni_45_551.so:system/lib64/libnfc_nci_jni_45_551.so \
-    vendor/huawei/hwcan/proprietary/lib64/hw/nfc_nci.pn54x_45_551.default.so:system/lib64/hw/nfc_nci.pn54x_45_551.default.so
+    vendor/huawei/hwcan/proprietary/lib64/hw/nfc_nci.pn54x_45_551.default.so:system/lib64/hw/nfc_nci.pn54x_45_551.default.so \
+    vendor/huawei/hwcan/proprietary/lib64/hw/nfc_nci.pn55x.default.so:system/lib64/hw/nfc_nci.pn55x.default.so
 
 PRODUCT_PACKAGES += \
     libsdm-disp-apis \
