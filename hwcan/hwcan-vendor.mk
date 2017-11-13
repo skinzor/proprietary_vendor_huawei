@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/huawei/hwcan/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/huawei/hwcan/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/huawei/hwcan/proprietary/bin/huawei_version:system/bin/huawei_version \
     vendor/huawei/hwcan/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/huawei/hwcan/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/huawei/hwcan/proprietary/bin/imscmservice:system/bin/imscmservice \
