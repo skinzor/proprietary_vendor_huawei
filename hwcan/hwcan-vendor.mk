@@ -926,6 +926,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
+    vendor/huawei/hwcan/proprietary/vendor/lib64/libbtaddr.so:system/vendor/lib64/libbtaddr.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
@@ -953,6 +954,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/huawei/hwcan/proprietary/vendor/lib64/libhuawei_secure.so:system/vendor/lib64/libhuawei_secure.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libhwlog.so:system/vendor/lib64/libhwlog.so \
     vendor/huawei/hwcan/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
