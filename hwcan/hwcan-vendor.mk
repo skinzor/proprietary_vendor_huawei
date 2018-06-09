@@ -325,7 +325,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/lib64/libhuawei_secure.so:system/lib64/libhuawei_secure.so \
     vendor/huawei/hwcan/proprietary/lib64/libhuaweicust.so:system/lib64/libhuaweicust.so \
     vendor/huawei/hwcan/proprietary/lib64/libhw_hal.so:system/lib64/libhw_hal.so \
-    vendor/huawei/hwcan/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/huawei/hwcan/proprietary/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
     vendor/huawei/hwcan/proprietary/lib64/libqmi_nv_api.so:system/lib64/libqmi_nv_api.so \
     vendor/huawei/hwcan/proprietary/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
