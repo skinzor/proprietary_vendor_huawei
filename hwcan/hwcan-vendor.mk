@@ -272,20 +272,20 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/lib/lib-imsxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsxml.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcommon.so \
     vendor/huawei/hwcan/proprietary/vendor/lib/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-uceservice.so \
-    vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv.bin:system/etc/wifi/WCNSS_hw_wlan_nv.bin \
-    vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_al00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_al00.bin \
-    vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_al00_no_fem.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_al00_no_fem.bin \
-    vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_cl00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_cl00.bin \
-    vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_l01.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_l01.bin \
-    vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_l02.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_l02.bin \
-    vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_l03.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_l03.bin \
-    vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_tl00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_tl00.bin \
-    vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_al00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_al00.bin \
-    vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_cl00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_cl00.bin \
-    vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_l01.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_l01.bin \
-    vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_l02.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_l02.bin \
-    vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_l03.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_l03.bin \
-    vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin \
+    vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv.bin \
+    vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv_can_al00.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv_can_al00.bin \
+    vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv_can_al00_no_fem.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv_can_al00_no_fem.bin \
+    vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv_can_cl00.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv_can_cl00.bin \
+    vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv_can_l01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv_can_l01.bin \
+    vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv_can_l02.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv_can_l02.bin \
+    vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv_can_l03.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv_can_l03.bin \
+    vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv_can_tl00.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv_can_tl00.bin \
+    vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv_mla_al00.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv_mla_al00.bin \
+    vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv_mla_cl00.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv_mla_cl00.bin \
+    vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv_mla_l01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv_mla_l01.bin \
+    vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv_mla_l02.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv_mla_l02.bin \
+    vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv_mla_l03.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv_mla_l03.bin \
+    vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin \
     vendor/huawei/hwcan/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/huawei/hwcan/proprietary/lib/libBestShot.so:system/lib/libBestShot.so \
     vendor/huawei/hwcan/proprietary/lib/libDocBeauty.so:system/lib/libDocBeauty.so \
