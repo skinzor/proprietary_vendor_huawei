@@ -231,7 +231,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin \
     vendor/huawei/hwcan/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/huawei/hwcan/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/huawei/hwcan/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/huawei/hwcan/proprietary/lib/libBestShot.so:system/lib/libBestShot.so \
     vendor/huawei/hwcan/proprietary/lib/libDocBeauty.so:system/lib/libDocBeauty.so \
     vendor/huawei/hwcan/proprietary/lib/libFaceBeautyMeiwo.so:system/lib/libFaceBeautyMeiwo.so \
@@ -240,7 +239,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/huawei/hwcan/proprietary/lib/libRefocusContrastPosition.so:system/lib/libRefocusContrastPosition.so \
     vendor/huawei/hwcan/proprietary/lib/libSmartAE.so:system/lib/libSmartAE.so \
-    vendor/huawei/hwcan/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/huawei/hwcan/proprietary/lib/libbtaddr.so:system/lib/libbtaddr.so \
     vendor/huawei/hwcan/proprietary/lib/libcamera_post_mediaserver.so:system/lib/libcamera_post_mediaserver.so \
     vendor/huawei/hwcan/proprietary/lib/libcamera_wrapper_algo_omron_makeup.so:system/lib/libcamera_wrapper_algo_omron_makeup.so \
@@ -252,9 +250,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/huawei/hwcan/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/huawei/hwcan/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
-    vendor/huawei/hwcan/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/huawei/hwcan/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/huawei/hwcan/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/huawei/hwcan/proprietary/lib/libmorpho_effect_library5.so:system/lib/libmorpho_effect_library5.so \
     vendor/huawei/hwcan/proprietary/lib/libmrc_cg_beauty.so:system/lib/libmrc_cg_beauty.so \
     vendor/huawei/hwcan/proprietary/lib/libmrc_cg_filters.so:system/lib/libmrc_cg_filters.so \
@@ -264,7 +259,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/lib/libmrc_cg_postprocess.so:system/lib/libmrc_cg_postprocess.so \
     vendor/huawei/hwcan/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
     vendor/huawei/hwcan/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
-    vendor/huawei/hwcan/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/huawei/hwcan/proprietary/lib/libscenedetection.so:system/lib/libscenedetection.so \
     vendor/huawei/hwcan/proprietary/lib/libtrack.so:system/lib/libtrack.so \
     vendor/huawei/hwcan/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
