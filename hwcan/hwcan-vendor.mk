@@ -1062,6 +1062,8 @@ PRODUCT_PACKAGES += \
     libqmi_oem_api \
     libthermalclient \
     libtime_genoff \
+    libts_detected_face_hal \
+    libts_face_beautify_hal \
     TimeService \
     shutdownlistener \
     CNEService \
