@@ -289,7 +289,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv_mla_l02.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv_mla_l02.bin \
     vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv_mla_l03.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv_mla_l03.bin \
     vendor/huawei/hwcan/proprietary/vendor/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin \
-    vendor/huawei/hwcan/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/huawei/hwcan/proprietary/lib/libBestShot.so:system/lib/libBestShot.so \
     vendor/huawei/hwcan/proprietary/lib/libDocBeauty.so:system/lib/libDocBeauty.so \
     vendor/huawei/hwcan/proprietary/lib/libFaceBeautyMeiwo.so:system/lib/libFaceBeautyMeiwo.so \
@@ -297,7 +296,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/lib/libHW_BShutter.so:system/lib/libHW_BShutter.so \
     vendor/huawei/hwcan/proprietary/lib/libRefocusContrastPosition.so:system/lib/libRefocusContrastPosition.so \
     vendor/huawei/hwcan/proprietary/lib/libSmartAE.so:system/lib/libSmartAE.so \
-    vendor/huawei/hwcan/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/huawei/hwcan/proprietary/lib/libbtaddr.so:system/lib/libbtaddr.so \
     vendor/huawei/hwcan/proprietary/lib/libcamera_post_mediaserver.so:system/lib/libcamera_post_mediaserver.so \
     vendor/huawei/hwcan/proprietary/lib/libcamera_wrapper_algo_omron_makeup.so:system/lib/libcamera_wrapper_algo_omron_makeup.so \
@@ -306,9 +304,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/lib/libhuawei_secure.so:system/lib/libhuawei_secure.so \
     vendor/huawei/hwcan/proprietary/lib/libhuaweicust.so:system/lib/libhuaweicust.so \
     vendor/huawei/hwcan/proprietary/lib/libhw_hal.so:system/lib/libhw_hal.so \
-    vendor/huawei/hwcan/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/huawei/hwcan/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/huawei/hwcan/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/huawei/hwcan/proprietary/lib/libmorpho_effect_library5.so:system/lib/libmorpho_effect_library5.so \
     vendor/huawei/hwcan/proprietary/lib/libmrc_cg_beauty.so:system/lib/libmrc_cg_beauty.so \
     vendor/huawei/hwcan/proprietary/lib/libmrc_cg_filters.so:system/lib/libmrc_cg_filters.so \
@@ -318,7 +313,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/lib/libmrc_cg_postprocess.so:system/lib/libmrc_cg_postprocess.so \
     vendor/huawei/hwcan/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
     vendor/huawei/hwcan/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
-    vendor/huawei/hwcan/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/huawei/hwcan/proprietary/lib/libscenedetection.so:system/lib/libscenedetection.so \
     vendor/huawei/hwcan/proprietary/lib/libtrack.so:system/lib/libtrack.so \
     vendor/huawei/hwcan/proprietary/lib64/hw/fingerprint.vendor.msm8953.so:system/lib64/hw/fingerprint.vendor.msm8953.so \
