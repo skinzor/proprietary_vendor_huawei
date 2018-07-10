@@ -144,6 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/huawei/hwcan/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/huawei/hwcan/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/huawei/hwcan/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/huawei/hwcan/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/huawei/hwcan/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/huawei/hwcan/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
@@ -151,6 +152,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/huawei/hwcan/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/huawei/hwcan/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/huawei/hwcan/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/huawei/hwcan/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/huawei/hwcan/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/huawei/hwcan/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/huawei/hwcan/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
@@ -1120,7 +1123,4 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     qcrilmsgtunnel \
     TimeService \
-    QtiTelephonyServicelibrary \
-    qcrilhook \
-    qti-telephony-common \
     qdcm_calib_data_JDI_SD6FA1_5P0_1080P_VIDEO.xml
