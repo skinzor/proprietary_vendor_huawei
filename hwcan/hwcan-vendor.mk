@@ -223,7 +223,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
     vendor/huawei/hwcan/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/huawei/hwcan/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
-    vendor/huawei/hwcan/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
     vendor/huawei/hwcan/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/huawei/hwcan/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/huawei/hwcan/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
@@ -1114,7 +1113,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     ims \
     CNEService \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     PowerOffAlarm \
     TimeService \
