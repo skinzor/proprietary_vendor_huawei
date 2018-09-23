@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hwcan/proprietary/bin/huawei_version:system/bin/huawei_version \
     vendor/huawei/hwcan/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
     vendor/huawei/hwcan/proprietary/bin/mac_addr_normalization:system/bin/mac_addr_normalization \
+    vendor/huawei/hwcan/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/hwcan/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/huawei/hwcan/proprietary/bin/oeminfo_nvm_server:system/bin/oeminfo_nvm_server \
     vendor/huawei/hwcan/proprietary/bin/teecd:system/bin/teecd \
