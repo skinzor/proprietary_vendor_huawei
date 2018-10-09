@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="gb2312"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <SdConfig>
-  <!-- µã¹âÔ´³¡¾°¼ì²âÃÅÏÞÖµ -->
+  <!-- ç‚¹å…‰æºåœºæ™¯æ£€æµ‹é—¨é™å€¼ -->
   <SpotLightThresholds>
     <LightSourceY>235</LightSourceY>
     <LightSourceYInLowLight>240</LightSourceYInLowLight>
@@ -9,7 +9,7 @@
     <LightSourceRatio>0.13</LightSourceRatio>
     <LightSourceRatioInLowLight>0.16</LightSourceRatioInLowLight>
   </SpotLightThresholds>
-  <!-- µÍ¹â¶àÖ¡³¡¾°¼ì²âÃÅÏÞÖµ -->
+  <!-- ä½Žå…‰å¤šå¸§åœºæ™¯æ£€æµ‹é—¨é™å€¼ -->
   <LowLightThresholds>
     <EnterIsoThreshold>800</EnterIsoThreshold>
     <EnterLumaThreshold>10</EnterLumaThreshold>
@@ -18,7 +18,7 @@
     <QuitLumaThreshold>25</QuitLumaThreshold>
     <QuitFpsThreshold>19</QuitFpsThreshold>
   </LowLightThresholds>
-  <!-- LCD²¹¹â³¡¾°¼ì²âÃÅÏÞÖµ -->
+  <!-- LCDè¡¥å…‰åœºæ™¯æ£€æµ‹é—¨é™å€¼ -->
   <CompensationModeThresholds>
     <EnterNightGainOrIsoThreshold>20</EnterNightGainOrIsoThreshold>
     <EnterNightFpsThreshold>1</EnterNightFpsThreshold>
@@ -31,11 +31,11 @@
     <QuitDarkToNightFpsThreshold>12</QuitDarkToNightFpsThreshold>
     <QuitDarkGainOrIsoThreshold>10.0</QuitDarkGainOrIsoThreshold>
     <QuitDarkFpsThreshold>15</QuitDarkFpsThreshold>
-    <TimeForStable>3</TimeForStable>     <!-- ÎÈ¶¨ÐèÒªµÄ´ÎÊý -->
-    <FirstFrameDelayForAeUnsettled>-1</FirstFrameDelayForAeUnsettled>   <!-- ÕýÊý±íÊ¾AEÎ´settleÊ±ÐèÒªµ÷¹ý¶àÉÙÖ¡ÔÙ×ö¼ì²â£¬0 ±íÊ¾Ö»ÓÐAE settledµÄÊ±ºò²Å¼ì²â£¬ ¸ºÊý±íÊ¾²»¹ØÐÄAEÊÇ·ñsettled   Ó°¼ì²âµÄ×¼È·¶ÈºÍËÙ¶È -->
-    <IsUseIso>0</IsUseIso>       <!-- 0 ±íÊ¾ÓÃgainÀ´×öÅÐ¶Ï£¬ÆäËûÖµ±íÊ¾ÓÃISO×öÅÐ¶Ï-->
+    <TimeForStable>3</TimeForStable>     <!-- ç¨³å®šéœ€è¦çš„æ¬¡æ•° -->
+    <FirstFrameDelayForAeUnsettled>-1</FirstFrameDelayForAeUnsettled>   <!-- æ­£æ•°è¡¨ç¤ºAEæœªsettleæ—¶éœ€è¦è°ƒè¿‡å¤šå°‘å¸§å†åšæ£€æµ‹ï¼Œ0 è¡¨ç¤ºåªæœ‰AE settledçš„æ—¶å€™æ‰æ£€æµ‹ï¼Œ è´Ÿæ•°è¡¨ç¤ºä¸å…³å¿ƒAEæ˜¯å¦settled   å½±æ£€æµ‹çš„å‡†ç¡®åº¦å’Œé€Ÿåº¦ -->
+    <IsUseIso>0</IsUseIso>       <!-- 0 è¡¨ç¤ºç”¨gainæ¥åšåˆ¤æ–­ï¼Œå…¶ä»–å€¼è¡¨ç¤ºç”¨ISOåšåˆ¤æ–­-->
   </CompensationModeThresholds>
-  <!-- LCD²¹¹â·ÇÕý³£Ä£Ê½³¡¾°¼ì²âÃÅÏÞÖµ -->
+  <!-- LCDè¡¥å…‰éžæ­£å¸¸æ¨¡å¼åœºæ™¯æ£€æµ‹é—¨é™å€¼ -->
   <CompensationAbnormalModeThresholds>
     <EnterAbnormalModeGainOrIsoThreshold>14.6</EnterAbnormalModeGainOrIsoThreshold>
     <EnterAbnormalModeFpsThreshold>10</EnterAbnormalModeFpsThreshold>
@@ -46,14 +46,14 @@
     <EnterNightMeanYThreshold>40</EnterNightMeanYThreshold>
     <QuitDarkToNightMeanYThreshold>30</QuitDarkToNightMeanYThreshold>
   </CompensationAbnormalModeThresholds>
-  <!-- LCD²¹¹âÉÁ¹âµÆµçÁ÷ÖµÑ¡ÔñÃÅÏÞÖµ -->
+  <!-- LCDè¡¥å…‰é—ªå…‰ç¯ç”µæµå€¼é€‰æ‹©é—¨é™å€¼ -->
   <CompensationLevelThresholds>
     <Level1Threshold>1000</Level1Threshold>
     <Level2Threshold>1000</Level2Threshold>
     <Level3Threshold>1000</Level3Threshold>
     <Level4Threshold>1000</Level4Threshold>
   </CompensationLevelThresholds>
-  <!-- LCD²¹¹âÉÁ¹âµÆµçÁ÷Öµ -->
+  <!-- LCDè¡¥å…‰é—ªå…‰ç¯ç”µæµå€¼ -->
   <CompensationCurrentLevels>
     <Level1>8</Level1>
     <Level2>8</Level2>
